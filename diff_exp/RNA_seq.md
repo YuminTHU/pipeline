@@ -42,7 +42,7 @@ the same as total RNA
 
 step2. map to genome 
 
-bowtie -p 6 -v 2 -m 1 --best --strata {bowtie_genome_index} {sample.clean.fastq}
+bowtie2 -x {bowtie2_genome_index} -q {sample.clean.fastq}|samtools view -bS > {sample.clean.bam}
 
 step3. generate count matrix 
 
