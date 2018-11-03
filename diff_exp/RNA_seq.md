@@ -1,5 +1,3 @@
-## mouse genome: /BioII/lulab_b/shared/genomes/mouse_mm10
-
 ## total RNA 
 
 step1. pre-process and qc
@@ -14,15 +12,11 @@ bowtie -v 1 -M 1 -m 10000 --best --un {sample.norRNA.fq} -t -p 6 {rRNA_index} -1
 
 step3. map to genome 
 
-tophat -p 6 --segment-mismatches 0 --library-type fr-firststrand -o {output_dir} {bowtie2_genome_index} {sample.norRNA_1.fq} {sample.norRNA_2.fq}
+STAR --genomeDir {genome_index} --readFilesIn {sample.norRNA_1.fq} {sample.norRNA_2.fq} --runThreadN 10 --outFileNamePrefix {output_dir} --outSAMtype BAM SortedByCoordinate
 
-step4. remove duplicates samtools 
+step4. generate count matrix 
 
-rmdup {accepted_hits.bam} {rmdup_accepted_hits.bam}
-
-step5. generate count matrix 
-
-featureCounts -T 6 -s 2 -t exon -g gene_id -a {annotation.gtf} -o {sample.featurecounts.txt} {rmdup_accepted_hits.bam}
+featureCounts -T 6 -s 2 -p -t exon -g gene_id -a {annotation.gtf} -o {sample.featurecounts.txt} {rmdup_accepted_hits.bam}
 
 step6. generate rpkm matrix
 
