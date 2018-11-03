@@ -1,4 +1,4 @@
-## total RNA 
+## long RNA-seq 
 
 step1. pre-process and qc
 
@@ -28,7 +28,7 @@ step7.differential expression
 
 edgeR https://lulab.gitbook.io/training/part-ii.-basic-bioinfo-analyses/3.differential-expression
 
-## small RNA 
+## short RNA-seq 
 
 step1. pre-process and qc 
 
