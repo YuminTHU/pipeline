@@ -16,7 +16,7 @@ STAR --genomeDir {genome_index} --readFilesIn {sample.norRNA_1.fq} {sample.norRN
 
 step4. generate count matrix 
 
-featureCounts -T 6 -s 2 -p -t exon -g gene_id -a {annotation.gtf} -o {sample.featurecounts.txt} {rmdup_accepted_hits.bam}
+featureCounts -T 6 -s 2 -p -t exon -g gene_id -a {annotation.gtf} -o {sample.featurecounts.txt} {sample.bam}
 
 step6. generate rpkm matrix
 
