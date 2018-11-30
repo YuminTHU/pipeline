@@ -35,24 +35,26 @@ step7.differential expression
 
 edgeR https://lulab.gitbook.io/training/part-ii.-basic-bioinfo-analyses/3.differential-expression
 
-## short RNA-seq 
+## short RNA-seq differential expression
 
-step1. pre-process and qc 
+### step1. pre-process and qc 
 
 the same as total RNA
 
-step2. map to genome 
-
+### step2. map to genome 
+```
 bowtie2 -x {bowtie2_genome_index} -q {sample.clean.fastq}|samtools view -bS > {sample.clean.bam}
+```
 
-step3. generate count matrix 
-
+### step3. generate count matrix 
+```
 featureCounts -s 1 -t miRNA -g Name -M --fraction -T 6 -a {miRNA.gff3} -o {sample.featurecounts.txt} {sample.clean.bam}
+```
 
-step4. generate rpkm matrix 
+### step4. generate rpkm matrix 
 
 the same as total RNA
 
-step5. differential expression 
+### step5. differential expression 
 
 the same as total RNA
