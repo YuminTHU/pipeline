@@ -31,7 +31,7 @@ edgeR: rpkm()
 rpkm <- rpkm(countData,gene.lengths)
 ```
 
-step7.differential expression 
+### step7.differential expression 
 
 edgeR https://lulab.gitbook.io/training/part-ii.-basic-bioinfo-analyses/3.differential-expression
 
