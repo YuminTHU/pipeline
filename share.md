@@ -6,3 +6,7 @@
 #### 20181201
 1. download data: exosome_SR2018_GSE114711: /BioII/zhuyumin/exLocator/exosome_SR2018_GSE114711/0.raw
 2. pipeline: update diff.exp, editing and APA: https://yuminthu.github.io/pipeline/
+
+#### 20190105
+1. update RNA-seq analysis pipeline
+2. add public RNA-seq metatable
