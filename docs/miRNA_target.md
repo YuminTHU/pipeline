@@ -1,7 +1,9 @@
 ## step1. get miRNA-mRNA interactions
 ### 1. download from database
+miRWalk2.0: a comprehensive atlas of predicted and validated miRNA-target interactions.
+http://zmf.umm.uni-heidelberg.de/apps/zmf/mirwalk2/
 
-### 2. prediction use bioinfomatic tools
+### 2. prediction by bioinformatics tools
 miRanda
 ```
 miranda miRNA.fa target_sequence.fa -strict >strict.output
