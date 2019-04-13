@@ -13,16 +13,11 @@
 
 #### 20190413
 1. update pipeline:
-
 (1) ribo-seq analysis
-
 (2) sequence motif analysis
-
 (3) co-expression network
-
 (4) miRNA target analysis
-
 (5) RBP interaction
 
-1. update genome data: add mouse
+2. update genome data: add mouse
 
