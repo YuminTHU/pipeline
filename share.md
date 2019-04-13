@@ -10,3 +10,19 @@
 #### 20190105
 1. update RNA-seq analysis pipeline
 2. add public RNA-seq metatable
+
+#### 20190413
+1. update pipeline:
+
+(1) ribo-seq analysis
+
+(2) sequence motif analysis
+
+(3) co-expression network
+
+(4) miRNA target analysis
+
+(5) RBP interaction
+
+1. update genome data: add mouse
+
