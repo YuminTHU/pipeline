@@ -1,9 +1,11 @@
 ### share minutes
 
 #### 20190531
-1. update local dir
+1. update local dir and link
 2. update CCLE data summary
-3. update RNA analysis pipeline
+3. download new CCLE data
+4. update RNA analysis pipeline
+
 
 #### 20190413
 1. update pipeline:
