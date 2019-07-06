@@ -1,5 +1,12 @@
 ### share minutes
 
+#### 20190706
+1. update genomes (update gff/gtf from Binbin)
+remove
+| Human   | hg38    | genomes/hg38 | index: star, bowtie2 | Yang Li | 2018.5.4.    |  [Genocde](ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_27/GRCh38.p10.genome.fa.gz) | cnode:/BioII/lulab_b/shared/genomes/human_hg38 | [training](https://github.com/lulab/training/tree/master/genomes) |
+2. transfer BioII to ShareII data (TCGA, CCLE) -- hongke
+3. update local dir in goolge sheets
+
 #### 20190531
 1. update local dir and link
 2. update CCLE data summary
