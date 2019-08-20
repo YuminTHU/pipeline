@@ -21,4 +21,4 @@ psRNATarget: http://plantgrn.noble.org/psRNATarget/
 psRobot: http://omicslab.genetics.ac.cn/psRobot/
 
 ## step2. functional annoation of miRNA targets
-https://github.com/dongzhuoer/diff_exp_2018_zhuoer/blob/master/DE-miRNA-pipeline.md
+https://github.com/dongzhuoer/lulab-rotation-summary/blob/master/RNA-seq/DE-miRNA-qplot-net.md
